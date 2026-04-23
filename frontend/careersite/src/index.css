@@ -1,0 +1,51 @@
+/* ===== RESET ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== GLOBAL THEME ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+/* ===== BODY ===== */
+body {
+  min-height: 100vh;
+  background-color: #f4f8ff; /* light blue background */
+  color: #1f2937;            /* dark readable text */
+}
+
+/* ===== LINKS ===== */
+a {
+  color: #2563eb;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ===== HEADINGS ===== */
+h1, h2, h3, h4 {
+  color: #1e3a8a;
+}
+
+/* ===== BUTTONS ===== */
+button {
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 16px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}

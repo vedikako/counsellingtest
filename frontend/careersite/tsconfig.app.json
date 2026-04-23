@@ -1,0 +1,26 @@
+// {
+//   "extends": "./tsconfig.json",
+//   "compilerOptions": {
+//     "target": "ESNext",             // modern JavaScript output
+//     "module": "ESNext",             // ES modules
+//     "allowJs": true,                // allow .js and .jsx files
+//     "checkJs": false,               // optional: don’t check JS files for type errors
+//     "jsx": "react-jsx",             // support React JSX transform
+//     "strict": true,                // optional, turn on later if you migrate to TS
+//     "esModuleInterop": true,        // compatibility for imports
+//     "skipLibCheck": true,           // skip type checking of node_modules
+//     "forceConsistentCasingInFileNames": true,
+//     "noEmit": true,
+//     // "composite": true,
+//     // "declaration": true,
+    
+
+//   },
+//   "include": ["src/**/*"],           // include all files in src recursively
+//   "exclude": ["node_modules", "dist"] // exclude build and dependencies
+// }
+
+{
+  "extends": "./tsconfig.json",
+  "include": ["src"]
+}
